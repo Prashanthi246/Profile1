@@ -1,0 +1,186 @@
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    font-family: 'Ubuntu',sans-serif;
+    transition: all 0.3s ease;
+}
+.navbar .sticky{
+    padding: 15px 0;
+    background: crimson;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .logo a span{
+    color: crimson;
+    transition: all o.3s ease;
+}
+.navbar .sticky .logo a span{
+    color: #fff;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: crimson;
+}
+.home{
+    display: flex;
+    background-color:cadetblue;
+    height: 100vh;
+    min-height: 500px;
+    font-family: 'ubuntu',sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+    color:black;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: 3px;
+    color:black;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+    color:black;
+
+}
+.home .home-content .text-3 span{
+    color:black;
+}
+.home .home-content .text-3 span{
+    color:black;
+    font-weight: 500;
+
+}
+.about .about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+
+    
+
+.hobbies .hobbies-content .card{
+    width: calc(33% - 20px);
+    background:cornflowerblue;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.hobbies .hobbies-content .card:hover{
+    background:cadetblue;
+}
+.hobbies .hobbies-content .card .box{
+    transition: all 0.3s ease;
+}
+.hobbies .hobbies-content .card:hover .box{
+    transform: scale(1.05);
+}
+.hobbies .hobbies-content .card i{
+    font-size: 50px;
+    color:aqua;
+    transition: color 0.3s ease;
+}
+.hobbies .hobbies-content .card:hover i{
+    color: #fff;
+}
+.hobbies .hobbies-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+
+.skills .title{
+    text-align: left;
+}
+.skills .skills-content .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+.skills .skills-content  .bars{
+    margin-bottom: 15px;
+}
+.skills .skills-content  .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .skills-content  span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.skills .skills-content  .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+}
+.skills .skills-content  .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+.skills-content  .html::before{
+    width: 90%;
+}
+.skills-content  .css::before{
+    width: 60%;
+}
+.skills-content  .js::before{
+    width: 80%;
+}
+.skills-content  .Java::before{
+    width: 50%;
+}
+.skills-content  .mysql::before{
+    width: 70%;
+}
